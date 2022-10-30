@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav bar  */
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.brand img {
+    width: 40px;
+    padding: 0 10px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.socail {
+    display: flex;
+    align-items: center;
+}
+
+.socail ul li img {
+    width: 34px;
+    border-radius: 23px;
+}
+
+.socail ul li img:hover {
+    transform: scale(1.1);
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+
+/* Main body  */
+.container {
+    width: 50vw;
+    padding: 32px 0;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.copy-to-clipboard-button {
+    border: 2px solid white !important;
+    cursor: pointer;
+    padding: 4px 3px !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 75vw;
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90vw;
+        padding: 10px 0;
+    }
+}
